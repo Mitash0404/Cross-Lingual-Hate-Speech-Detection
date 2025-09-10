@@ -1,0 +1,61 @@
+# Large data files (exceed GitHub's 100MB limit)
+data/processed/english/training.1600000.processed.noemoticon.csv
+data/processed/english/archive.zip
+data/hindi_dataset.zip
+data/archive.zip
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Large model files
+*.pth
+*.bin
+*.safetensors
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.numbers
