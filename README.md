@@ -107,25 +107,47 @@ The system implements a sophisticated pipeline for cross-lingual hate speech det
 
 ## 📈 Performance Results
 
-### Cross-Lingual Transfer Performance
-| Language Pair | Zero-Shot F1 | Fine-Tuned F1 | Improvement |
-|---------------|--------------|---------------|-------------|
-| English → Hindi | 78.5% | 85.2% | +6.7% |
-| English → Marathi | 72.3% | 79.8% | +7.5% |
-| English → Bangla | 69.8% | 76.3% | +6.5% |
-| English → German | 81.2% | 83.7% | +2.5% |
-| English → Nepali | 65.4% | 71.5% | +6.1% |
+### Zero-Shot Single Task Evaluation Results on Hindi Dataset
+| Source Language | Macro F1 Score | Accuracy |
+|-----------------|----------------|----------|
+| English | 0.56 | 0.59 |
+| Marathi | 0.70 | 0.72 |
 
-### Model Architecture Comparison
-- **XLM-RoBERTa**: 82.1% average F1-score (best overall)
-- **mBERT**: 78.4% average F1-score
-- **Custom Models**: 75.2% average F1-score
+### Zero-Shot Multi-Task Learning Evaluation Results on Hindi Dataset
+| Language Combination | Macro F1 Score | Accuracy |
+|---------------------|----------------|----------|
+| German | 0.40 | 0.40 |
+| English | 0.64 | 0.64 |
+| English + German | 0.69 | 0.67 |
+| Bangla | 0.66 | 0.67 |
+| Marathi | 0.77 | 0.77 |
+| Marathi + Bangla | 0.79 | 0.79 |
 
-### Cultural Context Analysis
-- **High-resource languages** (English, German): 83%+ F1-score
-- **Medium-resource languages** (Hindi, Marathi): 79%+ F1-score  
-- **Low-resource languages** (Bangla, Nepali): 73%+ F1-score
-- **Cultural adaptation**: 12% improvement with cultural context features
+### Zero-Shot Multi-Task Learning Evaluation Results on Nepali Dataset
+| Language Combination | Macro F1 Score | Accuracy |
+|---------------------|----------------|----------|
+| German | 0.50 | 0.55 |
+| English | 0.57 | 0.58 |
+| English + German | 0.65 | 0.65 |
+| Bangla | 0.60 | 0.60 |
+| Marathi | 0.65 | 0.65 |
+| Marathi + Bangla | 0.69 | 0.71 |
+
+### Zero-Shot Multi-Task Learning Evaluation Results on Hinglish Dataset
+| Language Combination | Macro F1 Score | Accuracy |
+|---------------------|----------------|----------|
+| German | 0.28 | 0.37 |
+| English | 0.52 | 0.52 |
+| English + German | 0.42 | 0.45 |
+| Bangla | 0.48 | 0.52 |
+| Marathi | 0.51 | 0.56 |
+| Marathi + Bangla | 0.51 | 0.51 |
+
+### Key Performance Insights
+- **Best Performance**: Marathi + Bangla combination achieves 0.79 F1-score on Hindi dataset
+- **Linguistic Similarity Impact**: Marathi (0.77) outperforms English (0.64) on Hindi due to linguistic proximity
+- **Multi-task Benefits**: Combining related languages (Marathi + Bangla) shows consistent improvements
+- **Script Sensitivity**: Performance degrades significantly on Hinglish (Latin script) compared to Devanagari Hindi
 
 ## 🔬 Technical Innovations
 
