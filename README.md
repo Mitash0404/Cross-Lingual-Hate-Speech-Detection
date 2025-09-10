@@ -5,7 +5,7 @@
 [![Transformers](https://img.shields.io/badge/Transformers-4.20+-green.svg)](https://huggingface.co/transformers)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A comprehensive machine learning system for detecting hate speech across multiple languages using state-of-the-art transformer models and zero-shot learning techniques. This research project was developed as part of CSCI 544 (Natural Language Processing) at USC and presented at QNI 45 conference.
+A comprehensive machine learning system for detecting hate speech across multiple languages using state-of-the-art transformer models and zero-shot learning techniques. This research project was developed as part of CSCI 544 (Natural Language Processing) at USC.
 
 ## 🚀 Project Overview
 
@@ -18,7 +18,6 @@ This project implements cross-lingual hate speech detection across 6 languages (
 - **Fine-Tuning Capabilities**: Language-specific model optimization
 - **Multiple Architectures**: XLM-RoBERTa, mBERT, and custom models
 - **Comprehensive Evaluation**: Extensive metrics and cross-lingual analysis
-- **Academic Research**: Published research papers and conference presentations
 
 ## 🛠️ Technical Implementation
 
@@ -179,9 +178,6 @@ jupyter notebook
 
 ### Academic Publications & Presentations
 - **CSCI 544 Final Report**: Comprehensive analysis of cross-lingual hate speech detection
-- **QNI 45 Conference**: Paper presentation on cultural and moral correlates
-- **Research Paper**: "Disentangling Perceptions of Offensiveness: Cultural & Moral Correlates"
-- **Conference Presentation**: QNI 45 - Cross-lingual hate speech detection methodology
 
 ### Key Research Findings
 1. **Cultural Context Significance**: Language-specific cultural nuances impact detection accuracy by up to 12%
