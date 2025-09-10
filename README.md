@@ -248,16 +248,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Email**: mitash.shah@example.com
+- **Email**: mitashshah@gmail.com
 - **GitHub**: [Mitash0404](https://github.com/Mitash0404)
-
-## 🙏 Acknowledgments
-
-- **CSCI 544 Course**: University of Southern California
-- **QNI 45 Conference**: Research presentation opportunity
-- **Open Source Community**: Transformers, PyTorch, and Hugging Face
-- **Dataset Contributors**: HASOC, GermEval, and other dataset creators
-
 ---
-
-**Built with ❤️ for responsible AI and cross-lingual understanding**
