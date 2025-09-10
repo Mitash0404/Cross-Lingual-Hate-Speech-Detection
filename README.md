@@ -184,8 +184,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Email**: mitashshah@gmail.com
 - **GitHub**: [Mitash0404](https://github.com/Mitash0404)
 
-## 🙏 Acknowledgments
-
-- **Open Source Community**: Transformers, PyTorch, and Hugging Face
-- **Dataset Contributors**: HASOC, GermEval, and other dataset creators
 
